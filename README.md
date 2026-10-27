@@ -1,5 +1,7 @@
 # Bruk av blokker i Payload
 
+`npx degit gloer/payload-blocks-intro`
+
 
 Du må ha Docker Desktop, eventuelt Docker Engine om du kjører Linux, installert på din maskin for å bygge og kjøre dette prosjektet. Du må fylle ut alle miljøvariablene nevnt i `.env.example` for at dette skal fungere; for kjøring lokalt på din egen maskin kan du lage en fil kalt `.env`, mens for produksjonssetting bør du bruke hostingplattformens foretrukne måte å legge inn miljøvariabler. 
 
@@ -13,7 +15,7 @@ Når alt er riktig satt opp har du Payload CMS og en tilknyttet Postgres-databas
 
 + Åpne terminalen din og lag deg en mappe der du ønsker at prosjektet skal ligge. F.eks: `mkdir mitt-payload-prosjekt`
 + Naviger deg inn i mappen. F.eks: `cd mitt-payload-prosjekt`
-+ Kjør følgende kommando for å kopiere filene fra starteren inn i ditt eget prosjekt: `npx degit vegarcodes/payload-cms-docker-starter`
++ Kjør følgende kommando for å kopiere filene fra starteren inn i ditt eget prosjekt: `npx degit gloer/payload-blocks-intro`
 + Sjekk at filene nå ligger i mappen du laget. F.eks: `ls -la`
 + Herfra kan du starte et git-repository med `git init` og sjekke det inn på GitHub på vanlig måte.
 
