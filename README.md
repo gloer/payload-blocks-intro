@@ -1,11 +1,5 @@
-# Payload CMS + Docker starterprosjekt
+# Bruk av blokker i Payload
 
-##Dette er en modifisert versjon av versjonen til Vegar
-
-`npx degit gloer/payload-modified-starter`
-
-
-Dette repositoryet inneholder en tilpasset variant av Payload sin starter-template, spesifikt ment for å brukes til å lage en Docker-container som kan kjøres. 
 
 Du må ha Docker Desktop, eventuelt Docker Engine om du kjører Linux, installert på din maskin for å bygge og kjøre dette prosjektet. Du må fylle ut alle miljøvariablene nevnt i `.env.example` for at dette skal fungere; for kjøring lokalt på din egen maskin kan du lage en fil kalt `.env`, mens for produksjonssetting bør du bruke hostingplattformens foretrukne måte å legge inn miljøvariabler. 
 
